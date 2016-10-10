@@ -1,5 +1,5 @@
 FROM        perl:latest
-MAINTAINER  Mitchell Hewes <me@mitcdh.com
+MAINTAINER  Mitchell Hewes <me@mitcdh.com>
 
 RUN cpanm POE::Component::IRC
 
