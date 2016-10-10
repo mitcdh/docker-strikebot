@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-use Storable;
 
 use POE qw(Component::IRC::State Component::IRC::Plugin::Connector Component::IRC::Plugin::AutoJoin Component::IRC::Plugin::BotAddressed Component::IRC::Plugin::BotTraffic Component::IRC::Plugin::CTCP Component::IRC::Plugin::NickReclaim Component::IRC::Plugin::NickServID Component::IRC::Plugin::BotCommand);
 use POE::Component::IRC::Common qw( :ALL );
