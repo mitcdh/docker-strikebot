@@ -18,7 +18,7 @@ docker run -d \
     -e NICK="StrikeBot" \
     -e NS_PASS="" \
     -e SERVER="irc.nexuswar.com" \
-    -e OWNER_CHANNEL="#rrf-wc" \
+    -e OWNER_CHANNELS="#rrf-wc" \
     -e CHANNELS="#rrf-ud,#rrf-wc PASSWORD,#gore PASSWORD,#constable" \
     mitcdh/strikebot
 ````
